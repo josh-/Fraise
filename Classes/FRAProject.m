@@ -132,6 +132,8 @@ Unless required by applicable law or agreed to in writing, software distributed 
 		[self insertDefaultIconsInDocument:document];
 		[self selectionDidChange];
 	}
+    
+    [aController.window setCollectionBehavior: NSWindowCollectionBehaviorFullScreenPrimary];
 }
 
 
